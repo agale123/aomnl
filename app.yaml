@@ -1,6 +1,5 @@
-runtime: python34
-api_version: 1
-threadsafe: true
+service: aomnl
+runtime: python310
 
 handlers:
 - url: /
