@@ -1,0 +1,60 @@
+.square-thumbnails .img-thumbnail {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+body > div.mx-auto {
+    max-width: 980px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #6fb7cc;
+    font-family: 'Glegoo', serif;
+}
+
+li {
+    font-family: 'Glegoo', serif;
+}
+
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #6fb7cc;
+}
+
+body {
+    overflow-y: scroll; /* Show vertical scrollbar */
+}
+
+.twocol div:nth-child(1) {
+    padding-right: 0px;
+}
+
+.twocol div:nth-child(2) {
+    padding-left: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-md.p-0,
+    .container-md.p-0 ul {
+        flex-direction: row!important;
+    }
+
+    .container-md.p-0 > .row > .col-3,
+    .container-md.p-0 > .row > .col-9 {
+        width: 100%;
+    }
+
+    .container-md.p-0 > .row {
+        flex-direction: column;
+    }
+
+    header.mb-5 {
+        margin-bottom: 0!important;
+    }
+  }
